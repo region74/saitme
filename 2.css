@@ -1,0 +1,78 @@
+h2
+{
+    color:black;
+    text-align:center;
+    font-size:20px;
+}
+h3
+{
+    color: black;
+    text-align:left;
+    font-size: 18px;
+}   
+h4 
+{
+    color:black;
+    font-style:italic;
+    
+}
+
+h1 { text-align:center;
+}
+body {background-color:antiquewhite;
+}
+
+
+box {
+    position:center;
+    text-align:center;
+}
+.dropbtn {
+    background-color:cadetblue;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    text-align:center;
+}
+
+/*  онтейнер <div> - необходим дл€ размещени€ выпадающего содержимого */
+.dropdown {
+    position: relative;
+    left:40%;
+    display: inline-block;
+}
+
+/* ¬ыпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* —сылки внутри выпадающего списка */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* »зменение цвета выпадающих ссылок при наведении курсора */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* ѕоказать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* »зменение цвета фона кнопки раскрывающегос€ списка при отображении содержимого раскрывающегос€ списка */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
